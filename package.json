@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-starter-typescript",
+  "description": "Gatsby project bootstrap, with TypeScript support",
+  "version": "1.0.0",
+  "author": "John Rothfels <john.rothfels@gmail.com>",
+  "dependencies": {
+    "front-matter": "^2.0.7",
+    "gatsby": "git://github.com/rothfels/gatsby#78bacf2f18893fccfb3aec135b96248450725f83",
+    "highlight.js": "^9.8.0",
+    "markdown-it": "^7.0.1",
+    "markdown-it-abbr": "^1.0.3",
+    "markdown-it-attrs": "^0.6.3",
+    "markdown-it-deflist": "^2.0.1",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "react-helmet": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^0.14.50",
+    "@types/react-helmet": "^0.0.25",
+    "@types/react-router": "^2.0.39",
+    "gh-pages": "^0.11.0",
+    "typescript": "^2.0.10"
+  },
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public",
+    "develop": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
